@@ -1,0 +1,16 @@
+F:\LTI Training\copyConstructor\String\bin\Debug\net5.0\String.exe
+F:\LTI Training\copyConstructor\String\bin\Debug\net5.0\String.deps.json
+F:\LTI Training\copyConstructor\String\bin\Debug\net5.0\String.runtimeconfig.json
+F:\LTI Training\copyConstructor\String\bin\Debug\net5.0\String.runtimeconfig.dev.json
+F:\LTI Training\copyConstructor\String\bin\Debug\net5.0\String.dll
+F:\LTI Training\copyConstructor\String\bin\Debug\net5.0\ref\String.dll
+F:\LTI Training\copyConstructor\String\bin\Debug\net5.0\String.pdb
+F:\LTI Training\copyConstructor\String\obj\Debug\net5.0\String.csproj.AssemblyReference.cache
+F:\LTI Training\copyConstructor\String\obj\Debug\net5.0\String.GeneratedMSBuildEditorConfig.editorconfig
+F:\LTI Training\copyConstructor\String\obj\Debug\net5.0\String.AssemblyInfoInputs.cache
+F:\LTI Training\copyConstructor\String\obj\Debug\net5.0\String.AssemblyInfo.cs
+F:\LTI Training\copyConstructor\String\obj\Debug\net5.0\String.csproj.CoreCompileInputs.cache
+F:\LTI Training\copyConstructor\String\obj\Debug\net5.0\String.dll
+F:\LTI Training\copyConstructor\String\obj\Debug\net5.0\ref\String.dll
+F:\LTI Training\copyConstructor\String\obj\Debug\net5.0\String.pdb
+F:\LTI Training\copyConstructor\String\obj\Debug\net5.0\String.genruntimeconfig.cache

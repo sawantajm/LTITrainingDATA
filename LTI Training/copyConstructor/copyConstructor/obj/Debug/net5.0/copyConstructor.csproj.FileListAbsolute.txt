@@ -1,0 +1,16 @@
+F:\LTI Training\copyConstructor\copyConstructor\bin\Debug\net5.0\copyConstructor.exe
+F:\LTI Training\copyConstructor\copyConstructor\bin\Debug\net5.0\copyConstructor.deps.json
+F:\LTI Training\copyConstructor\copyConstructor\bin\Debug\net5.0\copyConstructor.runtimeconfig.json
+F:\LTI Training\copyConstructor\copyConstructor\bin\Debug\net5.0\copyConstructor.runtimeconfig.dev.json
+F:\LTI Training\copyConstructor\copyConstructor\bin\Debug\net5.0\copyConstructor.dll
+F:\LTI Training\copyConstructor\copyConstructor\bin\Debug\net5.0\ref\copyConstructor.dll
+F:\LTI Training\copyConstructor\copyConstructor\bin\Debug\net5.0\copyConstructor.pdb
+F:\LTI Training\copyConstructor\copyConstructor\obj\Debug\net5.0\copyConstructor.csproj.AssemblyReference.cache
+F:\LTI Training\copyConstructor\copyConstructor\obj\Debug\net5.0\copyConstructor.GeneratedMSBuildEditorConfig.editorconfig
+F:\LTI Training\copyConstructor\copyConstructor\obj\Debug\net5.0\copyConstructor.AssemblyInfoInputs.cache
+F:\LTI Training\copyConstructor\copyConstructor\obj\Debug\net5.0\copyConstructor.AssemblyInfo.cs
+F:\LTI Training\copyConstructor\copyConstructor\obj\Debug\net5.0\copyConstructor.csproj.CoreCompileInputs.cache
+F:\LTI Training\copyConstructor\copyConstructor\obj\Debug\net5.0\copyConstructor.dll
+F:\LTI Training\copyConstructor\copyConstructor\obj\Debug\net5.0\ref\copyConstructor.dll
+F:\LTI Training\copyConstructor\copyConstructor\obj\Debug\net5.0\copyConstructor.pdb
+F:\LTI Training\copyConstructor\copyConstructor\obj\Debug\net5.0\copyConstructor.genruntimeconfig.cache

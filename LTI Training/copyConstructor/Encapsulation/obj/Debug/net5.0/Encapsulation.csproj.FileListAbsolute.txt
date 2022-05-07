@@ -1,0 +1,16 @@
+F:\LTI Training\copyConstructor\Encapsulation\bin\Debug\net5.0\Encapsulation.exe
+F:\LTI Training\copyConstructor\Encapsulation\bin\Debug\net5.0\Encapsulation.deps.json
+F:\LTI Training\copyConstructor\Encapsulation\bin\Debug\net5.0\Encapsulation.runtimeconfig.json
+F:\LTI Training\copyConstructor\Encapsulation\bin\Debug\net5.0\Encapsulation.runtimeconfig.dev.json
+F:\LTI Training\copyConstructor\Encapsulation\bin\Debug\net5.0\Encapsulation.dll
+F:\LTI Training\copyConstructor\Encapsulation\bin\Debug\net5.0\ref\Encapsulation.dll
+F:\LTI Training\copyConstructor\Encapsulation\bin\Debug\net5.0\Encapsulation.pdb
+F:\LTI Training\copyConstructor\Encapsulation\obj\Debug\net5.0\Encapsulation.csproj.AssemblyReference.cache
+F:\LTI Training\copyConstructor\Encapsulation\obj\Debug\net5.0\Encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+F:\LTI Training\copyConstructor\Encapsulation\obj\Debug\net5.0\Encapsulation.AssemblyInfoInputs.cache
+F:\LTI Training\copyConstructor\Encapsulation\obj\Debug\net5.0\Encapsulation.AssemblyInfo.cs
+F:\LTI Training\copyConstructor\Encapsulation\obj\Debug\net5.0\Encapsulation.csproj.CoreCompileInputs.cache
+F:\LTI Training\copyConstructor\Encapsulation\obj\Debug\net5.0\Encapsulation.dll
+F:\LTI Training\copyConstructor\Encapsulation\obj\Debug\net5.0\ref\Encapsulation.dll
+F:\LTI Training\copyConstructor\Encapsulation\obj\Debug\net5.0\Encapsulation.pdb
+F:\LTI Training\copyConstructor\Encapsulation\obj\Debug\net5.0\Encapsulation.genruntimeconfig.cache

@@ -1,0 +1,44 @@
+
+
+<form [formGroup]="regform">
+    
+    <label>User Name:</label>
+    <input type="text"  class="form-control" formControlName="username"/>
+    <div class="text-danger" *ngIf="username && username.invalid  &&(username.touched || username?.dirty)">
+        <div  *ngIf="username.errors?.['required']" >Username is Required</div>
+        <div *ngIf=" username.invalid && username.errors?.['pattern']">Please Enter Only Characters</div>
+        <div *ngIf="username.errors?.['minlegth']">minimum 4 characters</div>
+    </div>
+    
+    
+
+    <label>Password:</label>
+    <input type="password" id="password" class="form-control" formControlName="password"/>
+    <div class="text-danger" *ngIf="password && password.invalid && (password.touched || password?.dirty)">
+        <div *ngIf="password.errors?.['required']">Enter Password</div>
+        <div *ngIf="password.errors?.['pattern']">Enter min length is 8 and </div>
+        <div *ngIf="password.errors?.['pattern']">one capital letter</div>
+        <div *ngIf="password.errors?.['pattern']">one Small letter </div>
+        <div *ngIf="password.errors?.['pattern']">one special character </div>
+        <div *ngIf="password.errors?.['pattern']">one numeric </div>
+
+        
+    </div>
+  
+   <!-- <div *ngIf="fullname && fullname.invalid && fullname.touched"  class="text-danger">full name is required</div>-->
+
+
+    <label>Mobile No:</label>
+    <input type="text" class="form-control" formControlname="mobileno"  formControlName="mobileno" />
+           <div *ngIf="mobileno && mobileno.invalid &&(mobileno.touched || mobileno?.dirty)" class="text-danger">
+            <div *ngIf="mobileno.errors?.['required']">Mobile No  is Required</div>
+            <div *ngIf="mobileno.errors?.['pattern']">Only Numbers</div>
+               <div *ngIf="mobileno.errors?.['minlength']">10 digit Required</div>
+
+                <div *ngIf="mobileno.errors?.['maxlength']">not more than 10 digit</div>
+                
+            </div>
+     
+       <button class="btn btn-primary" type="submit" [disabled]="!regform.valid">Save</button>
+
+</form>

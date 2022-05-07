@@ -1,0 +1,16 @@
+<form [formGroup]="Imageupload">    
+    
+    <label>SelectFile</label>
+    <input type="file" class="py-3" (change)="onfileSelected($event)" formControlName="image" />
+
+    <button class="btn btn-success" (click)="Onupload()" > upload</button>
+
+
+
+</form>
+
+
+
+
+
+

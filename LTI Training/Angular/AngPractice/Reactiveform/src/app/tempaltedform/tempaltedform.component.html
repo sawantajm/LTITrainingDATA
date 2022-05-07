@@ -1,0 +1,43 @@
+<form  #Templateform="ngForm" (ngSubmit)="Doregister(Templateform)">
+    <h3>Registration </h3>
+    <div class="bg-white rounded shadow  px-3 py-3">
+           
+            <select  class="form-control"> 
+                <option value="mr">Mr.</option>
+                <option value="miss">Miss.</option>
+            </select>  <br/>
+            <label>Name:</label>
+        
+            <input type="text"  id="username" class="form-control" name="username"   pattern="[a-zA-Z\s]*"  [(ngModel)]="username" #user="ngModel" required  />
+            <small class="text-danger bg-white" *ngIf="user.invalid && user.touched" >User name is Required</small><br/>
+            <small class="text-danger"  *ngIf="user.errors?.['pattern']">please Enter only characters</small><br/>
+        
+
+   
+            <label>Password</label>
+            <input type="password" id="password" class="form-control"  name="password" minlength="8"  pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$" [(ngModel)]="password" #pass="ngModel" required />
+            <small class="text-danger bg-white" *ngIf="pass.invalid && (pass.touched || pass?.dirty)"> password is Required</small>
+            <small class="text-danger" *ngIf="pass.errors?.['minlength']">minimum  8 digit password</small>
+            <small class="text-danger" *ngIf="pass.errors?.['pattern']"> At least One upper Case,one lowercase,one number,one Special character</small>
+            
+            <label>Mobile No:</label>
+            <input type="text"   id="mobileno" class="form-control" name="mobileno" minlength="10" maxlength="10" pattern="^[0-9]*" [(ngModel)]="mobileno" #mobile="ngModel" required/>
+            <small class="text-danger  bg-white"  *ngIf="mobile.invalid && mobile.touched">Mobile Number is Required</small><br/>
+            <small class="text-danger" *ngIf="mobile.errors?.['pattern']">Enter only numbers</small>
+            <small class="text-danger" *ngIf="mobile.errors?.['minlength']">min 10 digit are Required</small>
+            <small class="text-danger" *ngIf="mobile.errors?.['maxlength']">more than 10 digit not accept</small>
+    
+            
+            <label>Date OF Birth:</label>
+            <input type="date" id="DOB" name="DOB" class="form-control" [(ngModel)]="DOB" #dob="ngModel"    required />
+            <small class="text-danger  bg-white"  *ngIf="dob.invalid && dob.touched">Date Of Birth is Required</small><br/>
+
+            <label>Email:</label>
+            <input type="text" id="email" name="email" class="form-control" [(ngModel)]="email" #Email="ngModel" required email />
+            <small class="text-danger  bg-white" *ngIf="Email.invalid && Email.touched" >Email is Required</small><br/>
+           
+       <div class="justify-content-center">
+             <button   [disabled]="Templateform.invalid"class="btn btn-success "type="submit"> Save</button>
+       </div>
+</div>
+</form>

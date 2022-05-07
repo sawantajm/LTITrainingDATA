@@ -1,0 +1,16 @@
+F:\LTI Training\copyConstructor\PartialClass\bin\Debug\net5.0\PartialClass.exe
+F:\LTI Training\copyConstructor\PartialClass\bin\Debug\net5.0\PartialClass.deps.json
+F:\LTI Training\copyConstructor\PartialClass\bin\Debug\net5.0\PartialClass.runtimeconfig.json
+F:\LTI Training\copyConstructor\PartialClass\bin\Debug\net5.0\PartialClass.runtimeconfig.dev.json
+F:\LTI Training\copyConstructor\PartialClass\bin\Debug\net5.0\PartialClass.dll
+F:\LTI Training\copyConstructor\PartialClass\bin\Debug\net5.0\ref\PartialClass.dll
+F:\LTI Training\copyConstructor\PartialClass\bin\Debug\net5.0\PartialClass.pdb
+F:\LTI Training\copyConstructor\PartialClass\obj\Debug\net5.0\PartialClass.csproj.AssemblyReference.cache
+F:\LTI Training\copyConstructor\PartialClass\obj\Debug\net5.0\PartialClass.GeneratedMSBuildEditorConfig.editorconfig
+F:\LTI Training\copyConstructor\PartialClass\obj\Debug\net5.0\PartialClass.AssemblyInfoInputs.cache
+F:\LTI Training\copyConstructor\PartialClass\obj\Debug\net5.0\PartialClass.AssemblyInfo.cs
+F:\LTI Training\copyConstructor\PartialClass\obj\Debug\net5.0\PartialClass.csproj.CoreCompileInputs.cache
+F:\LTI Training\copyConstructor\PartialClass\obj\Debug\net5.0\PartialClass.dll
+F:\LTI Training\copyConstructor\PartialClass\obj\Debug\net5.0\ref\PartialClass.dll
+F:\LTI Training\copyConstructor\PartialClass\obj\Debug\net5.0\PartialClass.pdb
+F:\LTI Training\copyConstructor\PartialClass\obj\Debug\net5.0\PartialClass.genruntimeconfig.cache

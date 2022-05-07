@@ -1,0 +1,184 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script src="~/Scripts/jquery.js" type="text/javascript"></script>
+
+<style>
+  .Highlight{
+      background-color:yellow;
+  }
+</style>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('div.ccl').attr({
+            title: 'Some Title',
+
+
+        }).css({                                                 //aplying css
+            'background-color': 'purple',
+            'color': 'White',
+            'font-size': '20pt',
+
+        }).text('change Text');                                     //change text
+        $('div.text-center').css('background-color','green');
+
+        //modifying Dom
+        $('#btn').click(function () {
+
+            $('span').append('<span style="color:blue">Apppended to1</span>');
+        });
+       
+        //Wrap 
+
+        $('div.ccl').wrap('<div class="text-center ParentWrapper"/>');
+
+        //Remove
+
+       // $('div.ParentWrapper').remove();
+
+
+
+        //Modifying style demo
+
+
+
+        //Class Function
+
+        $('input[type="text"]').addClass('Highlight');   // apply color
+
+
+        $('#LastName').removeClass('Highlight');     // remove Color
+
+
+        WritetextUsingEvent();
+
+
+
+
+        // handle select 
+
+        $('#stateselect').change(function () {
+            alert($(this).val());
+        });
+
+
+        //mouse Event : when curssor over textr change the backgound color
+        /*
+        $('.mydiv').mouseenter(function () {
+
+            $(this).toggleClass('Highlight');
+        })
+            .mouseleave(function () {
+                $(this).toggleClass('Highlight')
+                $(this).css('cursor', 'pointer');
+
+            })
+            .mouseup(function (e) {
+                $(this).text('X' + e.pageX +' ' + 'y:' + e.pageY);  //change the x and y Axix value when click
+            })
+            */
+
+
+
+        //Handling Multiple Events
+        //bind()  and on()
+        $('.mydiv').on('mouseenter mouseleave mouseup', function (e) {
+            $(this).toggleClass('Highlight')
+            $(this).css('cursor', 'pointer');
+
+
+            if (e.type == 'mouseup') {
+                $(this).text('X' + e.pageX + ' ' + 'y:' + e.pageY);  //change the x and y Axix value when click
+            }
+
+        })
+       
+
+    });
+
+    function FocusBlure(tb)
+    {
+        $(tb).toggleClass('Highlight');     //toggle Class : Change The color Backgrond color of textbox
+
+    }
+
+
+    function WritetextUsingEvent() {                                                //Event Handling Function
+
+
+        $('#Eventhandling').click(function() {
+            var FirstNameVal = $('#FirstName').val();
+            var LastName = $('#LastName').val();
+            var Email = $('Email').val();
+            var mobileno = $('mobileno').val();
+
+
+            $('#output').text(FirstNameVal + ' ' + LastName);
+            //$('output').text(Email);
+            //$('output').text(mobileno);
+
+
+
+        });
+
+    }
+
+</script>
+<div class="text-center">
+    <h1 class="display-7">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    
+    
+    <div class="mydiv">this is a some text</div>
+    
+</div>
+<div class="ccl">
+    <span>
+       span tag
+    </span>
+</div>
+<div class="ccl">
+    <span>
+       span tag
+    </span>
+</div>
+<div class="lcc">
+    <span>
+        span tag
+    </span>
+</div>
+<div class="ccl">
+    <span>
+        span tag
+    </span>
+</div>
+<br />
+
+<br />
+<label>First Name</label>
+<input type="text"   id="FirstName" onfocus=" FocusBlure(this)" onblur=" FocusBlure(this)" />
+<label>Last Name</label>
+<input type="text" id="LastName"  onfocus=" FocusBlure(this)" onblur=" FocusBlure(this)" />
+
+<label>Email</label>
+<input type="text" id="Email" onfocus="  FocusBlure(this)" onblur=" FocusBlure(this)"/>
+<label>Mobile No:</label>
+<input type="text" id="Mobileno"  onfocus=" FocusBlure(this)" onblur=" FocusBlure(this)" />
+
+<select id="stateselect">
+    <option value="MH">MH</option>
+    <option value="Ap">Ap</option>
+    <option value="Mp">Mp</option>
+</select>
+
+
+<button id="btn">Appended text</button>
+
+<button id="Eventhandling">Submit</button>
+
+
+<h3 id="output"></h3>
+
+
